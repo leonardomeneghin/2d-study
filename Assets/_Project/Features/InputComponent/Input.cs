@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
-using Assets.Entities;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
@@ -52,12 +51,6 @@ namespace Assets._Project.Features.InputComponent
             jumpComponent.StartJump();
 
         }
-
-        private void OnCollisionEnter(Collision collision) //colision é o gameobject qual o objeto colidiu
-        {
-            Debug.Log(collision.gameObject.name);
-        }
-
 
     }
 

@@ -44,7 +44,6 @@ namespace Assets._Project.Features.MovementComponent
         
         public void Update()
         {
-            Debug.Log(_dir);
             if (Mathf.RoundToInt(totalAccelerationTime) < Mathf.RoundToInt(maxAccelerationTime))
             {
                 totalAccelerationTime += Time.deltaTime;

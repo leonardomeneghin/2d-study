@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Assets.Entities;
 using UnityEngine;
 
 namespace Assets._Project.Features.JumpComponent
